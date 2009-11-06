@@ -15,38 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_2F0B25398C924EF4951234EFE60C2C35"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7137371964424231969DBBD51C12641F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_ED637260774B4121B57EE8302994B4C5"
+        "MsmKey" = "8:_DCF3B5A0996649558AA212FF05D70A44"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7137371964424231969DBBD51C12641F"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2F0B25398C924EF4951234EFE60C2C35"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_ED637260774B4121B57EE8302994B4C5"
+        "OwnerKey" = "8:_DCF3B5A0996649558AA212FF05D70A44"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +43,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5.SP1"
+                    {
+                    "Name" = "8:.NET Framework 3.5 SP1"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5.SP1"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -83,177 +80,86 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Net.Framework.3.5.SP1"
+                    {
+                    "Name" = "8:.NET Framework 3.5 SP1"
+                    "ProductCode" = "8:Microsoft.Net.Framework.3.5.SP1"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
     {
         "CustomAction"
         {
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_13BADBF0BEF746B3B0CDAA368088360C"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_2615327D73284C1C8CC9703DEF36D83A"
             {
-            "Name" = "8:Primary output from Service1 (Active)"
+            "Name" = "8:Primary output from Services (Active)"
             "Condition" = "8:"
-            "Object" = "8:_7137371964424231969DBBD51C12641F"
-            "FileType" = "3:2"
-            "InstallAction" = "3:1"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:1"
-            "Identifier" = "8:_14241182_DA88_4739_A872_F2ED5F9E40BA"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_40382745063D4A1191D0E6A82D0427E2"
-            {
-            "Name" = "8:Primary output from Service1 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_7137371964424231969DBBD51C12641F"
-            "FileType" = "3:2"
-            "InstallAction" = "3:3"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:1"
-            "Identifier" = "8:_6446889E_5A80_422A_B22C_FE0247924E8A"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_548A0E2121E54A35986B60C3CDC30F17"
-            {
-            "Name" = "8:Primary output from Service2 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_ED637260774B4121B57EE8302994B4C5"
-            "FileType" = "3:2"
-            "InstallAction" = "3:1"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:2"
-            "Identifier" = "8:_47BBBA8A_7907_45B9_9705_D95602D59211"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_9A53DA8D0D954BF9AAB3BB74681240D3"
-            {
-            "Name" = "8:Primary output from Service1 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_7137371964424231969DBBD51C12641F"
+            "Object" = "8:_DCF3B5A0996649558AA212FF05D70A44"
             "FileType" = "3:2"
             "InstallAction" = "3:2"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_0297940A_3214_40CE_974D_C76E8D4AB310"
+            "Identifier" = "8:_E4CB684D_5AB6_4731_9D34_0CB5C1B98D12"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_9CFA3914889F45CE899C57EE65C0F32B"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_2AC44975BC9E4CD3BCA85F9B8D85D0E3"
             {
-            "Name" = "8:Primary output from Service1 (Active)"
+            "Name" = "8:Primary output from Services (Active)"
             "Condition" = "8:"
-            "Object" = "8:_7137371964424231969DBBD51C12641F"
+            "Object" = "8:_DCF3B5A0996649558AA212FF05D70A44"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_1FB717D8_686D_4561_9962_DAFE9FCB6441"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_4468ADF6247F4FF08F0440925E43C020"
+            {
+            "Name" = "8:Primary output from Services (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_DCF3B5A0996649558AA212FF05D70A44"
             "FileType" = "3:2"
             "InstallAction" = "3:4"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
-            "Identifier" = "8:_992A1351_B1DF_4EBD_8997_D143B625CDEA"
+            "Identifier" = "8:_DEE61665_167A_43D8_91F1_A9028BD6346E"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A4F8F9F606FF4A3F84F59253262F3D84"
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_6CE5926A453E4FF59268C68270A91C7F"
             {
-            "Name" = "8:Primary output from Service2 (Active)"
+            "Name" = "8:Primary output from Services (Active)"
             "Condition" = "8:"
-            "Object" = "8:_ED637260774B4121B57EE8302994B4C5"
-            "FileType" = "3:2"
-            "InstallAction" = "3:4"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:2"
-            "Identifier" = "8:_1B6FB9EE_D076_4C4C_9FFD_3FBA8B73C3D3"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A51D1E0D597C4CC99F965D3AFE84265E"
-            {
-            "Name" = "8:Primary output from Service2 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_ED637260774B4121B57EE8302994B4C5"
-            "FileType" = "3:2"
-            "InstallAction" = "3:3"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:2"
-            "Identifier" = "8:_CA63B530_4039_4B17_98C0_C5B09ADACE00"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_AF7F5E60A3F64B15BCF2F2E41E4F0B4B"
-            {
-            "Name" = "8:Primary output from Service3 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_2F0B25398C924EF4951234EFE60C2C35"
-            "FileType" = "3:2"
-            "InstallAction" = "3:2"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:3"
-            "Identifier" = "8:_B98B1EC4_D47A_4DFF_83DA_01984A621748"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_BCAD1DEF436F4EF4ABD7982A9E8FE9C4"
-            {
-            "Name" = "8:Primary output from Service3 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_2F0B25398C924EF4951234EFE60C2C35"
-            "FileType" = "3:2"
-            "InstallAction" = "3:3"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:3"
-            "Identifier" = "8:_B16E0FB1_B0E3_48BD_A5CE_EA12446825FE"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_DCEB829AB49F4A48B231AB9602D096A9"
-            {
-            "Name" = "8:Primary output from Service3 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_2F0B25398C924EF4951234EFE60C2C35"
-            "FileType" = "3:2"
-            "InstallAction" = "3:4"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:3"
-            "Identifier" = "8:_625507A5_2B2C_42F9_B00D_54B370F82316"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_F19D85A697B8461A9C11B0814AB853E9"
-            {
-            "Name" = "8:Primary output from Service2 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_ED637260774B4121B57EE8302994B4C5"
-            "FileType" = "3:2"
-            "InstallAction" = "3:2"
-            "Arguments" = "8:"
-            "EntryPoint" = "8:"
-            "Sequence" = "3:2"
-            "Identifier" = "8:_77B3CC7B_4410_4B43_8C5A_43F8BEA8B009"
-            "InstallerClass" = "11:TRUE"
-            "CustomActionData" = "8:"
-            }
-            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_F67F6F79684A43D48107D52BC808AD2A"
-            {
-            "Name" = "8:Primary output from Service3 (Active)"
-            "Condition" = "8:"
-            "Object" = "8:_2F0B25398C924EF4951234EFE60C2C35"
+            "Object" = "8:_DCF3B5A0996649558AA212FF05D70A44"
             "FileType" = "3:2"
             "InstallAction" = "3:1"
             "Arguments" = "8:"
             "EntryPoint" = "8:"
-            "Sequence" = "3:3"
-            "Identifier" = "8:_AA551389_96B7_4448_B4BB_941F1B14CFD9"
+            "Sequence" = "3:1"
+            "Identifier" = "8:_47B9545A_396D_479E_9B83_535CA4B72FA4"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -337,7 +243,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Installer"
         "ProductCode" = "8:{6C568374-DA16-4154-935D-0ECAC349FC45}"
-        "PackageCode" = "8:{B96DE086-F728-45FD-956B-8BABDB2F9548}"
+        "PackageCode" = "8:{E0DEB236-00C2-4094-8C82-51A5463CEBFA}"
         "UpgradeCode" = "8:{8757C55B-41EB-4F2F-9C7A-9D13CD393A15}"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
@@ -855,9 +761,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_2F0B25398C924EF4951234EFE60C2C35"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_DCF3B5A0996649558AA212FF05D70A44"
             {
-            "SourcePath" = "8:..\\Service3\\obj\\Debug\\Service3.exe"
+            "SourcePath" = "8:..\\Services\\obj\\Debug\\Services.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_8BD433A418884868A69FF3B4D6234211"
@@ -877,63 +783,7 @@
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{5EB02B56-4EDC-453E-A54E-8D3D9ADB4EB3}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_7137371964424231969DBBD51C12641F"
-            {
-            "SourcePath" = "8:..\\Service1\\obj\\Debug\\Service1.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_8BD433A418884868A69FF3B4D6234211"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{26556E59-FC37-40FC-A9DA-46CA19F44BEA}"
-            "ShowKeyOutput" = "11:TRUE"
-                "ExcludeFilters"
-                {
-                }
-            }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_ED637260774B4121B57EE8302994B4C5"
-            {
-            "SourcePath" = "8:..\\Service2\\obj\\Debug\\Service2.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_8BD433A418884868A69FF3B4D6234211"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
-            "OutputProjectGuid" = "8:{0E6A5DB6-E44B-4F29-8EE7-D518E3D77391}"
+            "OutputProjectGuid" = "8:{A1420498-1F59-4A4E-BAF4-8C4F3551F45C}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

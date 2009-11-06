@@ -1,7 +1,7 @@
 ﻿Imports System.ServiceProcess
 
 <Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Service3
+Partial Class ServiceA
 	Inherits System.ServiceProcess.ServiceBase
 
 	'UserService overrides dispose to clean up the component list.
@@ -19,7 +19,7 @@ Partial Class Service3
 	' The main entry point for the process
 	<MTAThread()> _
 	<System.Diagnostics.DebuggerNonUserCode()> _
-	Shared Sub Main()
+	Shared Sub Main(ByVal args() As String)
 		Dim ServicesToRun() As System.ServiceProcess.ServiceBase
 
 		' More than one NT Service may run within the same process. To add
@@ -28,9 +28,11 @@ Partial Class Service3
 		'
 		'   ServicesToRun = New System.ServiceProcess.ServiceBase () {New Service1, New MySecondUserService}
 		'
-		ServicesToRun = New System.ServiceProcess.ServiceBase() {New Service3}
 
+		ServicesToRun = New System.ServiceProcess.ServiceBase() {New ServiceA, New ServiceB}
+		Common.Write("This is the main entry point")
 		System.ServiceProcess.ServiceBase.Run(ServicesToRun)
+		Common.Write("After we run the service base.")
 	End Sub
 
 	'Required by the Component Designer
@@ -42,9 +44,9 @@ Partial Class Service3
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
 		'
-		'Service3
+		'ServiceA
 		'
-		Me.ServiceName = "Service3"
+		Me.ServiceName = "ServiceA"
 
 	End Sub
 
