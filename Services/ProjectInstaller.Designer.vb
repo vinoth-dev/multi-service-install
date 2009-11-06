@@ -23,6 +23,7 @@
     Private Sub InitializeComponent()
 		Me.ServiceProcessInstaller1 = New System.ServiceProcess.ServiceProcessInstaller
 		Me.ServiceInstaller1 = New System.ServiceProcess.ServiceInstaller
+		Me.ServiceInstaller2 = New System.ServiceProcess.ServiceInstaller
 		'
 		'ServiceProcessInstaller1
 		'
@@ -31,14 +32,19 @@
 		'
 		'ServiceInstaller1
 		'
-		Me.ServiceInstaller1.ServiceName = "Service1"
+		Me.ServiceInstaller1.ServiceName = "ServiceA"
+		'
+		'ServiceInstaller2
+		'
+		Me.ServiceInstaller2.ServiceName = "ServiceB"
 		'
 		'ProjectInstaller
 		'
-		Me.Installers.AddRange(New System.Configuration.Install.Installer() {Me.ServiceProcessInstaller1, Me.ServiceInstaller1})
+		Me.Installers.AddRange(New System.Configuration.Install.Installer() {Me.ServiceProcessInstaller1, Me.ServiceInstaller1, Me.ServiceInstaller2})
 
 	End Sub
 	Friend WithEvents ServiceProcessInstaller1 As System.ServiceProcess.ServiceProcessInstaller
 	Friend WithEvents ServiceInstaller1 As System.ServiceProcess.ServiceInstaller
+	Friend WithEvents ServiceInstaller2 As System.ServiceProcess.ServiceInstaller
 
 End Class
